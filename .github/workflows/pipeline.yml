@@ -24,6 +24,8 @@ jobs:
 
       - name: Linting
         uses: sibiraj-s/action-eslint@v4
+        with:
+          all-files: true
         
             
       
