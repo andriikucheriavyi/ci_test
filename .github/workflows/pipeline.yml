@@ -14,7 +14,7 @@ jobs:
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
         
       - name: Installing node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v24
       - run: echo "Node installed"
       
       - name: Installing dependencies
