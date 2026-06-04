@@ -23,6 +23,9 @@ jobs:
         run: npm test
 
       - name: Linting
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+        run: npm ci
+      - uses: sibiraj-s/action-eslint@v4
+        with:
+          working-directory: .github/workflows
             
       
