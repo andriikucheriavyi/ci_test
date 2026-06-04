@@ -1,26 +1,25 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [pull_request, push]
-    
-      
+on: [pull_request, push, workflow_dispatch]
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
       - run: echo "The repository cloned"
-        
+
       - name: Installing node
-        uses: actions/setup-node@v6.4.0
+        uses: actions/setup-node@v4
       - run: echo "Node installed"
-      
+
       - name: Installing dependencies
         run: npm install
       - run: echo "Dependencies installed"
-      
+
       - name: Testing
         run: npm test
 
       - name: Linting
-        uses: eslint/eslint@v10.0.1
+        run: npx eslint .
