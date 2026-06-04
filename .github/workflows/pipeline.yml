@@ -23,7 +23,7 @@ jobs:
         run: npm test
 
       - name: Linting
-        uses: sibiraj-s/action-eslint@v4
+        uses: actions/eslint@v10.0.1
         with:
           all-files: true
         
