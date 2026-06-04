@@ -5,7 +5,7 @@
 
   "overrides": [
     {
-      "files": [ "github/workflows/.*yml" ],
+      "files": [ ".github/workflows/.*yml" ],
       "rules": {
         "quotes": [ 2, "single" ]
       }
