@@ -23,4 +23,4 @@ jobs:
         run: npm test
 
       - name: Linting
-        uses: lintkit/eslint-kit@0.1.0
+        uses: eslint/js@v10.0.1
