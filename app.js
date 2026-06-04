@@ -1,4 +1,4 @@
-app.js — Notre "application" ultra-simple
+//app.js — Notre "application" ultra-simple
 function additionner(a, b) {
 return a + b;
 }
