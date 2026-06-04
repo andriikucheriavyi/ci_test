@@ -23,7 +23,7 @@ jobs:
         run: npm test
 
       - name: Linting
-        uses: actions/eslint@v10.0.1
+        uses: lintkit/eslint-kit@0.1.0
         with:
           all-files: true
         
