@@ -24,8 +24,3 @@ jobs:
 
       - name: Linting
         uses: lintkit/eslint-kit@0.1.0
-        with:
-          all-files: true
-        
-            
-      
