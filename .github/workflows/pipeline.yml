@@ -23,4 +23,4 @@ jobs:
         run: npm test
 
       - name: Linting
-        uses: eslint/js@v10.0.1
+        uses: bradennapier/eslint-plus-action@v3
